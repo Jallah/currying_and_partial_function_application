@@ -12,6 +12,7 @@ namespace ConsoleApplication1
 {
     class Program
     {
+        /*
         // Die Common Language Runtime steuert das physische Layout der Datenfelder einer Klasse oder Struktur im verwalteten
         // Speicher.Wenn Sie jedoch den Typ an nicht verwalteten Code übergeben möchten, können Sie StructLayoutAttribute-Attribut verwenden, um das nicht verwaltete Layouts des Typs zu steuern. ...
         // braucht man hier aber offensichtlich nichts, da scheinbar GetCursorPos mit der structur klarkommt
@@ -80,16 +81,16 @@ namespace ConsoleApplication1
             val = 10;
         }
 
-        public static Func<B, R> Partial<A, B, R>(/*this*/ Func<A, B, R> f, A a)
+        public static Func<B, R> Partial<A, B, R>(this Func<A, B, R> f, A a)
         {
             return b => f(a, b);
         }
 
-        public static Func<A, Func<B, C>> Curry<A, B, C>(/*this*/ Func<A, B, C> f)
+        public static Func<A, Func<B, C>> Curry<A, B, C>(this Func<A, B, C> f)
         {
             return a => b => f(a, b); // int -> int -> int
         }
-
+        */
         static Func<int, int, int> add = (a, b) => a + b;
         static Func<int, int, int, int> add2 = (a, b, c) => a + b + c;
 
