@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{EB58F3A7-754F-4390-9621-E1CD352A186D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partial_function_application_+_currying", "ConsoleApplication1\Partial_function_application_+_currying.csproj", "{EB58F3A7-754F-4390-9621-E1CD352A186D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
